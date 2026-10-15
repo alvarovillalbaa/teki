@@ -47,8 +47,8 @@ After changing `styles.css`, increment its `?v=` version in all four HTML pages 
 
 ## Publish
 
-The repository root is ready for GitHub Pages: **Settings → Pages → Deploy from a branch → main → /(root)**. `.nojekyll` skips Jekyll processing. No custom Actions workflow, paid service or custom domain is needed.
+The site is live at **[alvarovillalbaa.github.io/teki](https://alvarovillalbaa.github.io/teki/)**. GitHub Pages publishes from **main → /(root)**, with HTTPS enforced. `.nojekyll` skips Jekyll processing. No custom Actions workflow, paid service or custom domain is needed.
 
-Expected site address: `https://alvarovillalbaa.github.io/teki/`. If renaming the repository or changing the domain, update canonical/Open Graph URLs, the 404 page's absolute paths and the optional prefix in the local server.
+If renaming the repository or changing the domain, update canonical/Open Graph URLs, the 404 page's absolute paths and the optional prefix in the local server.
 
 Fonts and photography have their own licenses; see [asset provenance](docs/assets.md). No software license has been assigned on the owner's behalf.
