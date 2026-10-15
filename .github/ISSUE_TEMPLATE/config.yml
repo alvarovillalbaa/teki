@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Comunidad teki
+    url: https://github.com/alvarovillalbaa/teki/discussions
+    about: Preséntate, comparte lo que estás construyendo o propón un encuentro.
+  - name: Acuerdos de convivencia
+    url: https://github.com/alvarovillalbaa/teki/blob/main/CODE_OF_CONDUCT.md
+    about: Cómo cuidamos el espacio compartido.
