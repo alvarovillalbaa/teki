@@ -2069,8 +2069,10 @@ dialog::backdrop {
 }
 @media (max-width: 360px) {
   .header-location {
-    font-size: 8px;
-    gap: 5px;
+    display: none;
+  }
+  .hero h1 {
+    font-size: clamp(44px, 15vw, 54px);
   }
   .hero-actions {
     gap: 15px;
