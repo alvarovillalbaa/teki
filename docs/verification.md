@@ -18,7 +18,19 @@ Project created on 15 October 2026. This record distinguishes implemented behavi
 - Public repository created at `https://github.com/alvarovillalbaa/teki` with Discussions enabled, verified through the GitHub API.
 - Community launch topics created and verified: [welcome](https://github.com/alvarovillalbaa/teki/discussions/1), [first meetup proposals](https://github.com/alvarovillalbaa/teki/discussions/2), [show and tell](https://github.com/alvarovillalbaa/teki/discussions/3). Event calls to action link directly to the actual planning topic.
 
-Source upload is next. Browser verification and GitHub Pages activation require explicit permission under the owner's supplied AGENTS.md instructions and have not been performed yet. The permission question is pending; it is not treated as approval.
+Source uploaded to `main` in commit `36623fc928001e668e9dc6cc12cd292fd42ec081`. The GitHub commit API and local `git rev-parse HEAD^{tree}` both report source tree `2f1150fe50181f610d1e152b4ac21b60ef51e228`, proving the uploaded source matches the local implementation. The remote recursive tree is untruncated and contains all 26 original files. Local worktree was clean after the upload.
+
+Browser verification and GitHub Pages activation require explicit permission under the owner's supplied AGENTS.md instructions and have not been performed yet. The permission question is pending; it is not treated as approval. No browser-runtime or live-site claim is made from static checks. A later documentation-only commit records this evidence.
+
+## Completion audit
+
+| Requirement | Evidence | Status |
+| --- | --- | --- |
+| Original tech-community website for teki in Madrid | Four site pages, original graphics, Spanish content and source files; static checks pass | Implemented; rendered browser behavior awaiting authorized check |
+| Referenced inspiration | Inspected primary sites and recorded decisions in `docs/design.md` | Verified research |
+| GitHub launch community | Public repository has Discussions enabled; topics 1–3 fetched through GitHub API | Published and verified |
+| Upload to owner's GitHub account | Commit and source tree hashes match GitHub `main` | Published and verified |
+| Live web hosting | GitHub Pages activation prepared, permission pending | Not deployed |
 
 ## Known limits
 
