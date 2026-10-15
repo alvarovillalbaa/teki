@@ -22,6 +22,8 @@ Source uploaded to `main` in commit `36623fc928001e668e9dc6cc12cd292fd42ec081`. 
 
 Browser verification and GitHub Pages activation require explicit permission under the owner's supplied AGENTS.md instructions and have not been performed yet. The permission question is pending; it is not treated as approval. No browser-runtime or live-site claim is made from static checks. A later documentation-only commit records this evidence.
 
+Follow-up audit on 15 October 2026: GitHub `main` and local `HEAD` both resolve to `92c57779bd1893f428bc7e7f90b76f959366fb9c`, with matching source tree `b3f49e2d2d8fc9aaa03b79202eaf8c779e5f2524`. The worktree was clean. GitHub's Pages API returned HTTP 404, confirming that no Pages site is configured. The source review found no additional required edit independent of the pending approval. No server, browser check or deployment was started. This is an authorization wait, not proof of completed verification.
+
 ## Completion audit
 
 | Requirement | Evidence | Status |
