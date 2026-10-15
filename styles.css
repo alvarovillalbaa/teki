@@ -2072,7 +2072,7 @@ dialog::backdrop {
     display: none;
   }
   .hero h1 {
-    font-size: clamp(44px, 15vw, 54px);
+    font-size: clamp(40px, 13.75vw, 49.5px);
   }
   .hero-actions {
     gap: 15px;
