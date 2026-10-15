@@ -6,7 +6,7 @@ A complete Spanish-language static website with an original identity, responsive
 
 ## Run
 
-Requires Node.js 22+. No installation, dependencies, build step, environment variables or external services are needed to run the site.
+Requires Node.js 22+. No installation, dependencies, environment variables or external services are needed to run the site. `npm run build` copies public pages and assets to `dist/` for hosting.
 
 ```sh
 npm start
@@ -43,12 +43,12 @@ The community lives at [GitHub Discussions](https://github.com/alvarovillalbaa/t
 
 Before publishing a scheduled event, confirm its date, location, host and participation conditions in Discussions, then update the relevant card and dialog together. Never remove the proposed-format notice without an actual confirmed event. Replace reference photography when owned community photographs become available, with permission from the people pictured.
 
-After changing `styles.css`, increment its `?v=` version in all four HTML pages so returning visitors receive the new styles through GitHub Pages caching.
+After changing `styles.css`, increment its `?v=` version in all four HTML pages so returning visitors receive the new styles through browser caching.
 
 ## Publish
 
-The site is live at **[alvarovillalbaa.github.io/teki](https://alvarovillalbaa.github.io/teki/)**. GitHub Pages publishes from **main → /(root)**, with HTTPS enforced. `.nojekyll` skips Jekyll processing. No custom Actions workflow, paid service or custom domain is needed.
+The site is live at **[teki-chi.vercel.app](https://teki-chi.vercel.app/)** on Clous Team (Pro). Vercel is connected to `alvarovillalbaa/teki` and deploys `main` to production. `vercel.json` runs `npm run build` and serves `dist/`; no install step or environment variables are needed. See [deployment evidence](docs/deployment.md).
 
-If renaming the repository or changing the domain, update canonical/Open Graph URLs, the 404 page's absolute paths and the optional prefix in the local server.
+When changing the domain, update canonical/Open Graph URLs. The 404 page uses root paths; the local server also supports the former project prefix.
 
 Fonts and photography have their own licenses; see [asset provenance](docs/assets.md). No software license has been assigned on the owner's behalf.

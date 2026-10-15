@@ -5,6 +5,7 @@
   "description": "teki — Gente tech. Planes reales. Una comunidad que empieza en Madrid.",
   "type": "module",
   "scripts": {
+    "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
     "check": "node --check app.js && node --check scripts/serve.mjs && node scripts/check.mjs"
   },

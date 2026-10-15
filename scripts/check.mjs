@@ -22,7 +22,8 @@ for (const page of pages) {
     const [path, anchor] = raw.split("#");
     const localPath = path
       .split("?")[0]
-      .replace(/^\/teki\//, "")
+      .replace(/^\//, "")
+      .replace(/^$/, "index.html")
       .replace(/\/$/, "/index.html");
     const target = path
       ? resolve(dirname(resolve(root, page)), localPath)
