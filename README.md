@@ -43,6 +43,8 @@ The community lives at [GitHub Discussions](https://github.com/alvarovillalbaa/t
 
 Before publishing a scheduled event, confirm its date, location, host and participation conditions in Discussions, then update the relevant card and dialog together. Never remove the proposed-format notice without an actual confirmed event. Replace reference photography when owned community photographs become available, with permission from the people pictured.
 
+After changing `styles.css`, increment its `?v=` version in all four HTML pages so returning visitors receive the new styles through GitHub Pages caching.
+
 ## Publish
 
 The repository root is ready for GitHub Pages: **Settings → Pages → Deploy from a branch → main → /(root)**. `.nojekyll` skips Jekyll processing. No custom Actions workflow, paid service or custom domain is needed.

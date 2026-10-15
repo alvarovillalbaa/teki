@@ -20,7 +20,7 @@ for (const page of pages) {
     }
     assert.ok(!raw.startsWith("javascript:"), `${page}: unsafe URL`);
     const [path, anchor] = raw.split("#");
-    const localPath = path
+    const localPath = path.split("?")[0]
       .replace(/^\/teki\//, "")
       .replace(/\/$/, "/index.html");
     const target = path
