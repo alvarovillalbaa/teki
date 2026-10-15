@@ -1,0 +1,133 @@
+{
+  "verifiedDate": "2026-10-15",
+  "target": "production",
+  "status": "READY",
+  "framework": "Other (static HTML)",
+  "source": "git",
+  "commit": "be5483e4510188a98d3f24b3612eaa876acb1b9f",
+  "deploymentId": "dpl_8WHedFZuLDdUWHhqn6KH1RNDrz27",
+  "url": "teki-hl4pr37yv-my-team-4f230354.vercel.app",
+  "aliases": [
+    "teki-chi.vercel.app",
+    "teki-my-team-4f230354.vercel.app",
+    "teki-git-main-my-team-4f230354.vercel.app"
+  ],
+  "buildDurationSeconds": 2.6,
+  "githubPagesEnabled": false,
+  "githubPagesUrlStatus": 404,
+  "productionHttpChecks": 18,
+  "expected404Checks": 5,
+  "byteComparedFiles": 13,
+  "runtimeErrorScan": "No runtime errors found in last 1h",
+  "drains": "Inventory unavailable: Vercel endpoint returned 404",
+  "checks": [
+    {
+      "url": "https://teki-chi.vercel.app/",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/privacidad.html",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/convivencia.html",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/404.html",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/styles.css?v=3",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/app.js",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/run-together.jpg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/build-together.jpg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/bricolage-grotesque.ttf",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/social.svg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/OFL.txt",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/mark.svg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/assets/social.jpg",
+      "status": 200,
+      "expected": 200,
+      "byteCompared": true
+    },
+    {
+      "url": "https://teki-chi.vercel.app/missing/nested-page",
+      "status": 404,
+      "expected": 404,
+      "byteCompared": false
+    },
+    {
+      "url": "https://teki-chi.vercel.app/AGENTS.md",
+      "status": 404,
+      "expected": 404,
+      "byteCompared": false
+    },
+    {
+      "url": "https://teki-chi.vercel.app/package.json",
+      "status": 404,
+      "expected": 404,
+      "byteCompared": false
+    },
+    {
+      "url": "https://teki-chi.vercel.app/scripts/build.mjs",
+      "status": 404,
+      "expected": 404,
+      "byteCompared": false
+    },
+    {
+      "url": "https://teki-chi.vercel.app/docs/deployment.md",
+      "status": 404,
+      "expected": 404,
+      "byteCompared": false
+    }
+  ]
+}
