@@ -1,5 +1,9 @@
 # teki ✳
 
+<!-- project-family:start -->
+> **Project family:** [Community & Earlier Work](https://github.com/alvarovillalbaa#community-and-earlier-work) · **Area:** Community sites
+<!-- project-family:end -->
+
 **Gente tech. Planes reales.** A new technology community starting in Madrid.
 
 A complete Spanish-language static website with an original identity, responsive layouts, three filterable meetup formats, accessible detail dialogs, FAQs, a real GitHub community destination, community guidelines, privacy and asset credits, a custom 404 page and social sharing metadata.
